@@ -1,0 +1,25 @@
+QUICK REPORT SUMMARY
+==================================================
+
+PROJECT: Drug Solubility Prediction using Machine Learning
+DATE: 2025-12-08
+BEST MODEL: MLP Regressor
+TEST R²: 0.8891
+MAE: 0.503 logS units
+CONCENTRATION ERROR: 3.2x
+
+KEY FINDINGS:
+• MLP Regressor performed best among 13 models
+• 89.4% predictions within 10x concentration
+• Feature importance identified key molecular descriptors
+
+FILES GENERATED:
+1. drug_solubility_academic_report.txt - Complete report
+2. model_performance.csv - All model results
+3. detailed_predictions.csv - Individual predictions
+4. best_model.pkl - Trained model file
+
+NEXT STEPS:
+1. Review the full report for detailed analysis
+2. Use model for solubility predictions
+3. Validate with experimental data

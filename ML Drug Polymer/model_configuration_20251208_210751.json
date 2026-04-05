@@ -1,0 +1,40 @@
+{
+  "project_name": "Drug-Polymer Solubility Prediction",
+  "timestamp": "20251208_210751",
+  "best_model": "MLP Regressor",
+  "model_type": "MLPRegressor",
+  "performance_metrics": {
+    "test_r2": 0.8891161949208288,
+    "test_rmse": 0.6694617969974272,
+    "test_mae": 0.5033212434699361,
+    "concentration_error_factor": 3.186553713463365,
+    "cv_r2_mean": 0.8465620579149291,
+    "cv_r2_std": 0.028635989332370198
+  },
+  "dataset_info": {
+    "n_test_samples": 226,
+    "n_features": 15,
+    "logS_range": {
+      "min": -8.4,
+      "max": 1.144,
+      "mean": -3.027044247787611
+    }
+  },
+  "feature_names": [
+    "Sol_Heuristic_1",
+    "Z_Score_LogP",
+    "MolLogP",
+    "MolLogP_abs",
+    "MW_LogP_Interaction",
+    "MolLogP_squared",
+    "MolLogP_signed_sqrt",
+    "Polarity_Estimate",
+    "MolWt_log",
+    "Z_Score_MolWt",
+    "MolWt",
+    "MolWt_squared",
+    "LogP_Bin_H",
+    "Aromatic_Score",
+    "MolWt_cubed"
+  ]
+}

@@ -1,0 +1,16 @@
+Feature_Name,Feature_Index
+Sol_Heuristic_1,0
+Z_Score_LogP,1
+MolLogP,2
+MolLogP_abs,3
+MW_LogP_Interaction,4
+MolLogP_squared,5
+MolLogP_signed_sqrt,6
+Polarity_Estimate,7
+MolWt_log,8
+Z_Score_MolWt,9
+MolWt,10
+MolWt_squared,11
+LogP_Bin_H,12
+Aromatic_Score,13
+MolWt_cubed,14

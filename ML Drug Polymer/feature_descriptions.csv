@@ -1,0 +1,11 @@
+Feature,Description
+MolWt_log,Log-transformed molecular weight
+MolWt_squared,Squared molecular weight
+MolWt_cubed,Cubed molecular weight
+MolLogP_squared,Squared lipophilicity
+Flexibility_Index,Rotatable bonds normalized by molecular weight
+Aromatic_Index,Aromatic proportion as percentage
+Lipinski_Score,Compliance with Lipinski Rule of 5
+MW_LogP_Interaction,Interaction between molecular weight and lipophilicity
+Complexity_Score,Composite score of molecular complexity
+Polarity_Estimate,Estimated polarity based on lipophilicity

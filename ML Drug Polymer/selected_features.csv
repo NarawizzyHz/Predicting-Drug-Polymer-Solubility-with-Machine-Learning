@@ -1,0 +1,16 @@
+selected_features
+Sol_Heuristic_1
+Z_Score_LogP
+MolLogP
+MolLogP_abs
+MW_LogP_Interaction
+MolLogP_squared
+MolLogP_signed_sqrt
+Polarity_Estimate
+MolWt_log
+Z_Score_MolWt
+MolWt
+MolWt_squared
+LogP_Bin_H
+Aromatic_Score
+MolWt_cubed

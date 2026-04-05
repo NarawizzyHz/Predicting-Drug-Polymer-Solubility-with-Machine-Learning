@@ -1,0 +1,27 @@
+Machine Learning for Drug Solubility Prediction
+
+Executive Summary
+Best Model: MLP Regressor
+Test R²: 0.8891
+Test RMSE: 0.669 logS
+Test MAE: 0.503 logS
+
+Model Performance
+13. MLP Regressor            : R²=0.8891
+ 6. Random Forest            : R²=0.8868
+ 9. LightGBM                 : R²=0.8785
+11. K-Nearest Neighbors      : R²=0.8748
+ 8. XGBoost                  : R²=0.8700
+ 7. Gradient Boosting        : R²=0.8653
+ 1. Linear Regression        : R²=0.8288
+ 2. Ridge Regression         : R²=0.8275
+12. AdaBoost                 : R²=0.8196
+ 4. ElasticNet               : R²=0.8177
+ 3. Lasso Regression         : R²=0.8165
+10. Support Vector Regression: R²=0.8123
+ 5. Decision Tree            : R²=0.7886
+
+Practical Implications
+Average error: 0.503 logS units
+Concentration error: 3.2x
+Suitable for: Early-stage drug screening

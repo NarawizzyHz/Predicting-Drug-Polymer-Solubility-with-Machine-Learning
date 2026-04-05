@@ -1,0 +1,18 @@
+{
+  "total_predictions": 226,
+  "mean_absolute_error_logS": 0.5033212434699361,
+  "median_absolute_error_logS": 0.40780108166188644,
+  "r2_score": 0.8891161949208288,
+  "rmse_logS": 0.6694617969974272,
+  "predictions_within_threshold": {
+    "within_0.5_logS": 61.06194690265486,
+    "within_1.0_logS": 89.38053097345133,
+    "within_1.5_logS": 97.78761061946902,
+    "within_2.0_logS": 99.11504424778761
+  },
+  "concentration_error_analysis": {
+    "mean_concentration_error_factor": 3.186553713463365,
+    "median_concentration_error_factor": 2.5574142553621853,
+    "max_concentration_error_factor": 10651.61083245861
+  }
+}

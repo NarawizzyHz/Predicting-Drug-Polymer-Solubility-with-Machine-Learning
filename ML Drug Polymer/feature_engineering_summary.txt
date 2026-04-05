@@ -1,0 +1,42 @@
+
+Feature Engineering Summary Text
+
+1. DATASET STATISTICS:
+   Total compounds: 1130
+   Total features created: 41
+   Features selected for ML: 15
+   Target variable range: -8.40 to 1.58
+
+2. FEATURE CATEGORIES:
+   Original features: 5
+   Derived features: 36
+
+3. TOP CORRELATIONS WITH SOLUBILITY:
+   Most positively correlated:
+     - Sol_Heuristic_1: 0.863
+     - Lipinski_LogP: 0.556
+     - Lipinski_Score: 0.536
+
+   Most negatively correlated:
+     - MolLogP: -0.813
+     - Z_Score_LogP: -0.813
+     - MolLogP_abs: -0.810
+
+4. SELECTED FEATURES FOR ML:
+    1. Sol_Heuristic_1
+    2. Z_Score_LogP
+    3. MolLogP
+    4. MolLogP_abs
+    5. MW_LogP_Interaction
+    6. MolLogP_squared
+    7. MolLogP_signed_sqrt
+    8. Polarity_Estimate
+    9. MolWt_log
+   10. Z_Score_MolWt
+   ... and 5 more
+
+5. CHEMICAL INSIGHTS:
+   � Molecular weight range: 16.0 to 780.9 g/mol
+   � Lipophilicity range: -7.57 to 10.39
+   � Rotatable bonds range: 0.0 to 23.0
+   � Aromatic proportion range: 0.00 to 1.00

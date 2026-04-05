@@ -1,0 +1,2 @@
+Dataset Name,Source,Compounds,Features,Target Variable,logS Range,Mean logS,Highly Soluble (logS > -2),Poorly Soluble (logS < -6)
+Delaney (ESOL) Solubility Dataset,GitHub (Data Professor),1144,5,logS (aqueous solubility in mol/L),-11.60 to 1.58,-3.06,370,109
